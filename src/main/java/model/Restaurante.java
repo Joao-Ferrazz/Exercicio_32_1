@@ -45,7 +45,7 @@ public class Restaurante extends Empresa {
     public void imprimirDados(){
         String precof = String.format("%.3f", precomedioprato);
         String dadosh = super.stringDados();
-        String dados = dadosh + "Tpo de comida: " +tipodecomida + "\n" + "Preço médio do prato: " + precof + " R$\n";
+        String dados = dadosh + "Tipo de comida: " +tipodecomida + "\n" + "Preço médio do prato: " + precof + " R$\n";
         JOptionPane.showMessageDialog(null, dados);
     }
 }
