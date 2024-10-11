@@ -83,6 +83,9 @@ public class Empresa {
         this.cep = JOptionPane.showInputDialog(null, "Digite o seu cep:");
         this.fone = JOptionPane.showInputDialog(null, "Digite o seu número de telefone:");
     }
+    public String stringDados() {
+        return "Nome: " + nome + "\n" + "Endereço: " + endereco + "\n" + "Cidade: " + cidade + "\n" + "Estado: " + estado + "\n" + "CEP: " + cep + "\n" + "Fone: " + fone + "\n";
+    }
     public void imprimirDados() {
         String dadosimpressos = nome + "\n" + endereco + "\n" + cidade + "\n" + estado + "\n" + cep + "\n" + fone + "\n";
         JOptionPane.showMessageDialog(null, dadosimpressos);
